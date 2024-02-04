@@ -17,7 +17,7 @@ const Navbar = () => {
           />
         </a>
 
-        {/* Search Bar */}
+        {/* Arama Çubuğu */}
         <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
           <input
             type="text"
@@ -29,7 +29,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* User Menu for large screens */}
+       
         <div className="hidden md:flex items-center space-x-6">
           <a href="/account" className="flex flex-col items-center hover:text-orange-500">
             <FiUser className="w-5 h-5" />
@@ -50,7 +50,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile Icons - Only icons with links */}
+        
         <div className="flex md:hidden items-center space-x-3">
           <a href="/account">
             <FiUser className="w-5 h-5 text-gray-600" />

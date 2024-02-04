@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa';
 
 
-// Örnek ürün verileri
+
 const yeniUrunler = [
-  // Verdiğiniz ürün örnekleri eklenmiştir.
+
   {
     id: 5,
     name: "JBL T560bt Kulak Üstü Bluetooth",
@@ -84,7 +84,7 @@ const ProductCard = ({ product }) => {
               className="text-red-600 bg-red-100 hover:bg-red-200 rounded-full p-2 shadow hover:shadow-lg transition duration-300"
             >
               <FaMinus className="h-2 w-4" />{" "}
-              {/* Eksi İkonunun Boyutu Küçültüldü */}
+         
             </button>
   
             <span className="text-lg font-semibold">{quantity}</span>
@@ -94,7 +94,7 @@ const ProductCard = ({ product }) => {
               className="text-green-600 bg-green-100 hover:bg-green-200 rounded-full p-2 shadow hover:shadow-lg transition duration-300"
             >
               <FaPlus className="h-2 w-4" />{" "}
-              {/* Artı İkonunun Boyutu Küçültüldü */}
+             
             </button>
           </div>
           <button className="bg-blue-600 w-full text-white rounded-lg py-2 hover:bg-blue-700 transition duration-300">
@@ -113,7 +113,7 @@ const ProductCard = ({ product }) => {
             YENİ ÜRÜNLER
           </h2>
         </div>
-        {/* Grid düzeni - mobilde 2, tablet ve üzerinde 3, büyük ekranlarda 4 sütun */}
+      
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {yeniUrunler.map(product => (
             <ProductCard key={product.id} product={product} />

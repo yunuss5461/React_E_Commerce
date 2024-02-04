@@ -31,7 +31,7 @@ const Menu = () => {
 
       {/* Normal Görünüm */}
       <div className="hidden sm:flex justify-around items-center bg-gradient-to-r from-pink-500 to-orange-500 p-2">
-        {/* Normal Görünümdeki Menü Öğeleri */}
+        {/* Normal Görünümdeki Menü */}
         <a href="#elektronik" className="hover:text-orange-200 transition-colors duration-150 py-2 text-xs sm:text-sm md:text-base">ELEKTRONIK</a>
         <a href="#moda-giyim" className="hover:text-orange-200 transition-colors duration-150 py-2 text-xs sm:text-sm md:text-base">MODA & GIYIM</a>
         <a href="#ev-yasam" className="hover:text-orange-200 transition-colors duration-150 py-2 text-xs sm:text-sm md:text-base">EV & YAŞAM</a>
